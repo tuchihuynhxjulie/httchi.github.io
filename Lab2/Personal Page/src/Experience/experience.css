@@ -1,0 +1,54 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 300px 100px 300px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.project:hover {
+    background-color: rgba(142, 138, 138, 0.3);
+    box-shadow: 0 0 10px rgba(142, 138, 138, 0.5);
+}
+
+.project img {
+    width: 250px;
+    height: 250px;
+    border-radius: 1000px;
+}
+
+.project h2 {
+    font-size: 26px;
+    margin-left: 0;
+}
+
+.project p {
+    font-size: 18px;
+}
+
+.project b {
+    font-size: 18px;
+}
+
+.project p:nth-child(3) {
+    text-align: justify;
+}
+
+.project p a {
+    color: white;
+    text-decoration: none;
+}
+
+.project p a:hover {
+    text-decoration: underline;
+}

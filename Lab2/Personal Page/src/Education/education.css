@@ -1,0 +1,52 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 300px 100px 300px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.education {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.education img {
+    width: 120px;
+    height: 120px;
+}
+
+.education h3 {
+    font-size: 25px;
+    margin: 0;
+    color: #3b97cd;
+}
+
+.education h4 {
+    font-size: 20px;
+    margin: 0;
+    color: #a9a9a9;
+    margin-top: 5px;
+}
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.introduction img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.introduction p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+}

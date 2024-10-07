@@ -1,0 +1,25 @@
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 130px 300px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.content img {
+    width: 350px;
+    height: 350px;
+    border-radius: 1000px;
+    margin-top: 50px;
+    transition: transform 0.3s ease;
+}
+
+.content img:hover {
+    transform: translateY(-20px);
+}
+
+.content h1 {
+    margin-top: 50px;
+}

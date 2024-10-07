@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ITITIU20175 - Lab 1</title>
+        <link rel="stylesheet" href="../GlobalStyle.css" />
+        <link rel="stylesheet" href="contact.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1>Huỳnh Thị Tú Chi - ITITIU20175</h1>
+                <nav>
+                    <ul>
+                        <li><a href="../Home/index.html">Home</a></li>
+                        <li><a href="../About/about.html">About Me</a></li>
+                        <li><a href="../Education/education.html">Education</a></li>
+                        <li><a href="../Experience/experience.html">Experience</a></li>
+                        <li><a href="../Softskill/softskill.html">Softskill</a></li>
+                        <li><a href="../Hobby/hobby.html">Hobby</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="content">
+            <img src="../../asset/Avatar.jpg" alt="" class="avatar" />
+            <div class="info">
+                <div class="contacts">
+                    <p>If you need me to provide more information, please do not hesitate to contact me through:</p>
+                    <div class="contact">
+                        <div class="icon-wrapper"><i class="fas fa-envelope"></i></div>
+                        <div class="details">
+                            <h4>Email</h4>
+                            <a href="mailto:hoangphi1311.gpa@gmail.com">huynhthituchi2002@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="icon-wrapper"><i class="fas fa-phone-alt"></i></div>
+                        <div class="details">
+                            <h4>Phone</h4>
+                            <span>(+84) 869 145 917</span>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="icon-wrapper"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="details">
+                            <h4>Address</h4>
+                            <span> <a href="#st-map">Dormitory A, Ho Chi Minh City</a></span>
+                        </div>
+                    </div>
+                    <p>Visits my social profile and get connected:</p>
+                    <div class="medias">
+                        <a href="https://github.com/tuchihuynhxjulie"
+                            ><div class="media"><i class="fab fab fa-github"></i></div
+                        ></a>
+                        <a href="https://www.linkedin.com/in/tuchihuynhxjulie/"
+                            ><div class="media"><i class="fab fa-linkedin"></i></div
+                        ></a>
+                    </div>
+                </div>
+                <iframe
+                    class="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.1230517274103!2d106.80371031125415!3d10.878244389232073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d8a5f4e477e9%3A0x29d5aeb365cee20b!2zS8O9IHTDumMgeMOhIEtodSBBIMSQSCBRdeG7kWMgZ2lhIFRQLiBI4buTIENow60gTWluaA!5e0!3m2!1svi!2s!4v1710845725159!5m2!1svi!2s"
+                    width="600"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+            </div>
+
+            <div class="form-contact">
+                <h2>Cross contact</h2>
+                <p>Please send me your information so that I can contact you</p>
+                <form action="">
+                    <div class="fields">
+                        <div class="data">
+                            <label htmlFor="fullname">Fullname</label>
+                            <input type="text" id="fullname" placeholder="Enter your fullname" />
+                        </div>
+                        <div class="data">
+                            <label htmlFor="email">Email</label>
+                            <input type="text" id="email" placeholder="Enter your email" />
+                        </div>
+                        <div class="data">
+                            <label htmlFor="phone">Phone No.</label>
+                            <input type="text" id="phone" placeholder="Enter your phone number" />
+                        </div>
+                        <div class="data">
+                            <label htmlFor="hobby">Hobby</label>
+                            <input type="text" id="hobby" placeholder="Share your hobby please" />
+                        </div>
+                    </div>
+                    <div class="message">
+                        <label htmlFor="message">Your feelings</label>
+                        <textarea
+                            id="message"
+                            cols="30"
+                            rows="6"
+                            placeholder="Write your feelings here ... "
+                        ></textarea>
+                    </div>
+                    <div class="submit-btn-wrapper">
+                        <button class="submit-btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 300px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hobby {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.hobby img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.hobby h4 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.hobby p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
